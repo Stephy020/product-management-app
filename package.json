@@ -1,0 +1,35 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "node --watch src/server.js",
+    "dev": "nodemon --watch src --ext js,ts --exec node --loader ts-node/esm src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Stephy020/product-management-app.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Stephy020/product-management-app/issues"
+  },
+  "homepage": "https://github.com/Stephy020/product-management-app#readme",
+  "dependencies": {
+    "@prisma/client": "^6.11.1",
+    "dotenv": "^17.2.0",
+    "express": "^5.1.0",
+    "mongoose": "^8.16.2",
+    "nodemon": "^3.1.10"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.13",
+    "prisma": "^6.11.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
+  }
+}
